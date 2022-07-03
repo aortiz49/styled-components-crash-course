@@ -196,10 +196,10 @@ Now, the way I like to handle optional properties is with the ternary operator. 
 1. Accessing the properties from the `props` argument
    
    ```tsx
+   background-color: ${(props) => (props.bg ? props.bg : "#6f5984")};
+   ```
+2. Destructuring the property directly
+   
+   ```tsx
    background-color: ${({ bg = "#6f5984" }) => bg};
    ```
-2. ```tsx
-   background-color: ${({ bg }) => (bg ? bg : "#6f5984")};
-   ```
-
-
