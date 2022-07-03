@@ -8,9 +8,9 @@
   <strong>Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress.</strong>
 </div>
 
+-------
+
 **This is a short charsh course on how to use the `styled-components` library.**
-
-
 
 ## Installation
 
