@@ -4,7 +4,8 @@ interface CoolHeaderProps {
     padding_tb: number;
 }
 export const StyledCoolHeader = styled.header<CoolHeaderProps>`
-    background-color: ${({ bg = "#6f5984" }) => bg};
+    //background-color: ${({ bg = "#6f5984" }) => bg};
+    background-color: ${({ theme }) => theme.colors.header};
     padding: ${({ padding_tb }) => padding_tb}px 0;
 
     h1 {
